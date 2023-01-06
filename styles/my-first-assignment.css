@@ -1,12 +1,12 @@
-
 html,
 body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Full banner section */
-.background-image{
+.background-image {
     background-image: url('../images/banner/banner3.png');
     position: relative;
     background-repeat: no-repeat;
@@ -15,7 +15,8 @@ body {
     height: 900px;
     width: 100%;
 }
-.banner{
+
+.banner {
     text-align: left;
     position: absolute;
     background-position: center;
@@ -26,17 +27,20 @@ body {
     margin-left: 1000px;
     padding-top: 100px;
 }
+
 .banner-header {
     font-size: 75px;
     font-weight: 700;
     color: aliceblue;
 }
-.banner-paragraph{
+
+.banner-paragraph {
     font-size: 20px;
     font-weight: 300;
     color: aliceblue;
     padding-top: -50px;
 }
+
 .banner-button {
     background-color: aliceblue;
     text-align: center;
@@ -47,7 +51,70 @@ body {
     font-weight: 700;
     margin-top: 35px;
 }
-.banner-button-link{
+
+.banner-button-link {
     color: rgb(4, 179, 219);
     text-decoration: none;
+}
+
+/* <!-- section female image and h1 and p add --> */
+.female-container {
+    display: flex;
+    margin: 200px 300px 30px 300px;
+    gap: 80px;
+}
+
+.female-writings-elements {
+    padding: 120px 200px 200px 0;
+}
+
+.female-header {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.para-female {
+    color: rgb(115, 115, 115);
+    font-style: normal;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.female-list {
+    padding-bottom: 1px;
+    color: rgb(115, 115, 115);
+}
+
+/* <!-- section my plan --> */
+.my-plans {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* section option add */
+.option-flex {
+    display: flex;
+    justify-content: center;
+    gap: 149px;
+}
+.option-elements{
+    margin-top: 50px;
+}
+.option-icon{
+    padding-left: 55px;
+}
+.option-header{
+    font-size: 27px;
+    font-weight: 700;
+}
+.option-p{
+    padding-left: 40px;
+}
+/* <!-- section my skills --> */
+.my-skills {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
 }
