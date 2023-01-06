@@ -22,7 +22,7 @@ body {
     background-position: center;
     float: right;
     height: 900px;
-    width: 30%;
+    width: 35%;
     text-align: right;
     margin-left: 1000px;
     padding-top: 100px;
@@ -117,4 +117,20 @@ body {
     font-weight: 700;
     text-align: center;
     padding-top: 100px;
+}
+/* section skills add */
+.skills-flex {
+    display: flex;
+    justify-content: center;
+    gap: 149px;
+}
+.skills-elements{
+    margin-top: 50px;
+}
+.skills-icon{
+    padding-left: 55px;
+}
+.skills-header{
+    font-size: 27px;
+    font-weight: 700;
 }
